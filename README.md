@@ -1,5 +1,5 @@
 # University Public Examples
- Most of my university coursework are within private repositories. However, I have placed examples of my work within this repository for public review
+ Most of my university coursework are within private repositories. However, I have placed examples of my work within this repository for public review.
 
 
 
@@ -10,11 +10,11 @@ A simple **C++** program that can generate 15-tile style puzzles (writing them t
 
 
 - **Configuration.h**: The declaration of a class for storing the state of a puzzle. These can be of arbitrary width and height.
-- **Configuration.cpp**: The definition of a class for storing the state of a puzzle
+- **Configuration.cpp**: The definition of a class for storing the state of a puzzle.
 - **Solver.h**: The declaration of a class for solving a set of Configuration objects. 
 - **Solver.cpp**: The definition of a the Solver class. After it is created, you can pass it Configuration objects and get it to solve them, storing the solutions. The solver uses mathematical equations to calculate the number of continuations (inc. reverse) as well as partial continuations (inc. reverse).
-- **15-File.txt**: Example output from generating a set of puzzles
-- **Solution.txt**: Example output from solving a set of puzzles
+- **15-File.txt**: Example output from generating a set of puzzles.
+- **Solution.txt**: Example output from solving a set of puzzles.
 
 
 
