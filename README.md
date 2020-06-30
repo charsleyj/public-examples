@@ -1,6 +1,15 @@
 # University Public Examples
  Most of my university coursework are within private repositories. However, I have placed examples of my work within this repository for public review.
 
+## CSC8498 - Project and Dissertation for MCOMP
+
+Final project of my degree. During this, I investigated different ways of visualising 4D scenes in real time. This used **C++** and **OpenGL**. To see a video of the results, you can visit [my portfolio](https://charsleyj.github.io/4DVisualisation.html).
+
+
+
+- **csVertex.glsl, csGeometry.glsl, csFragment.glsl:** Vertex, geometry and fragment shaders for rendering a 3D cross-section of a 4D object. This involved calculating new vertices for the intersection with the 3D plane w=0.
+- **wireVertex, wireFragment.glsl:** Vertex and Fragment shaders for rendering a wireframe projection of the 4D object. This takes in a 5x5 projection matrix for projecting the points into 3D space.
+
 ## CSC8503 - Advanced Game Technologies
 
 My third coursework for my final year. A simple **C++** game where you control a goose, stealing items and taking them back to your island. We were tasked with adding physics, collision detection, AI and Networking to the game. To see a video of the project, you can visit [my portfolio](https://charsleyj.github.io/UnoriginalGooseGame.html).
